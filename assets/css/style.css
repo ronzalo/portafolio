@@ -1,0 +1,205 @@
+/* Global styles */
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'open sans', sans-serif;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2em;
+  padding-top: 30px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-weight: 200;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 2.0em;
+  }
+  .hero {
+    height: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 3.5em;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+}
+/*Navbarr */
+.navbar {
+  padding: .5rem 2rem;
+  background-color: #660066;
+}
+
+@media (min-width: 1200px) {
+
+  .navbar {
+    padding: .5rem 10rem;
+  }
+
+  .nav-item {
+    padding-right: 2rem;
+  }
+}
+/*Hero Section*/
+.hero {
+  background-image: url("../img/bg_hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero hr {
+  border: solid #fff 1px;
+  width: 200px;
+}
+
+.hero span{
+  padding-top: 13rem;
+  font-weight: 200;
+}
+
+.hero h1 {
+  font-weight: 700;
+}
+
+.title {
+  padding-top: 28rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 700px;
+  }
+}
+
+/*About-me*/
+.about-me {
+  text-align: center;
+  color: #373A3C;
+  padding: 30px 20px 20px 30px;
+  margin: 20px;
+}
+
+.about-me hr {
+  border: solid #373A3C 1px;
+  width: 200px;
+}
+
+/* My Experience */
+.my-experience {
+  color: #373A3C;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.my-experience i {
+  font-size: 180px;
+  padding-bottom: 10px;
+}
+
+.my-experience .row {
+  margin: 20px;
+}
+
+.my-experience hr {
+  border: solid #373A3C 1px;
+  width: 200px;
+}
+/* My_last_works */
+
+.last-works {
+  background-color: #660066;
+  text-align: center;
+  color: #373A3C;
+}
+.last-works h2 {
+  color: #fff;
+}
+
+.last-works hr {
+  border: solid #fff 1px;
+  width: 200px;
+}
+
+.card-deck {
+  padding: 20px 10px 20px 10px;
+}
+
+.card-deck .card {
+  margin-bottom: 30px;
+}
+
+.contact  {
+  color:  #373A3C;
+  text-align: center;
+  padding: 100px 20px 150px 20px;
+}
+
+.contact hr {
+  border: solid #373A3C 1px;
+  width: 200px;
+  margin-bottom: 80px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+}
+
+.typeform-widget {
+  padding: 20px 20px 20px 20px;
+}
+
+.footer {
+  background-color: #660066;
+  color: #fff;
+  text-align: center;
+}
+
+.footer i {
+  font-size: 30px;
+  padding: 70px 20px 50px 20px;
+  margin-bottom: 30px;
+}
+
+.footer h2 {
+  padding: 70px 20px 50px 20px;
+}
+
+@media (min-width: 768px) {
+  .footer h2 {
+    padding: 70px 20px 50px 20px;
+  }
+
+  .footer i {
+    font-size: 50px;
+    padding: 70px 20px 50px 20px;
+  }
+}
